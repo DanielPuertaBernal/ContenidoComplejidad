@@ -10,6 +10,7 @@ def superDigit(n, k):
         int: El superdígito del número construido.
     """
 
+
     def digit_sum(num: str) -> int:
         """
         Función recursiva que calcula el superdígito de un número.

@@ -12,7 +12,7 @@ def bubble_sort(arr):
         3. Si arr[j] > arr[j + 1], intercambiamos dichos elementos.
         4. Cada pasada “burbujea” el elemento más grande restante hacia el final.
         5. Repetimos pasadas hasta que en una pasada no haya intercambios, lo que indica
-           que el arreglo ya está ordenado (optimización).
+            que el arreglo ya está ordenado (optimización).
 
     Pasos detallados:
         - length = len(arr)

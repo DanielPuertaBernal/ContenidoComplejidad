@@ -26,7 +26,7 @@ def letter_combinations(digits):
                 - path: string acumulado de letras hasta el momento.
                 - Si index == len(digits), significa que hemos construido una combinación completa:
                     • Append path a resultado.
-                  Retornar.
+                    Retornar.
                 - Obtener el dígito actual: digit = digits[index].
                 - Obtener las letras asociadas: letters = mapping[digit].
                 - Iterar cada letra en letters:
@@ -34,7 +34,7 @@ def letter_combinations(digits):
 
     Complejidad:
         - Tiempo: O(4^n * n), donde n = len(digits). En el peor caso, el dígito '7' o '9' tienen 4 letras,
-          así que hay 4^n combinaciones, y para cada combinación construimos un string de longitud n.
+            así que hay 4^n combinaciones, y para cada combinación construimos un string de longitud n.
         - Espacio: O(n) en la pila de recursión más el espacio para almacenar las combinaciones (O(4^n) cadenas).
     """
     if not digits:

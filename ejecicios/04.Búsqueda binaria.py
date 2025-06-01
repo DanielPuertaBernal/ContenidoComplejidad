@@ -12,9 +12,9 @@ def binary_search(arr, target):
             a. Calcular mid = (left + right) // 2.
             b. Si arr[mid] == target, retornar mid.
             c. Si arr[mid] < target, significa que target solo puede estar en la porción derecha:
-                 left = mid + 1
+                left = mid + 1
             d. Si arr[mid] > target, target solo puede estar en la porción izquierda:
-                 right = mid - 1
+                right = mid - 1
         3. Si salimos del ciclo sin encontrar target, retornar -1.
 
     Consideraciones:

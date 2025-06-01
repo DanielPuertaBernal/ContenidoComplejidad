@@ -20,7 +20,7 @@ def remove_duplicates_sorted_array(nums):
             * i = índice para el elemento “escribible” (última posición de elementos únicos encontrados).
             * j = índice que recorre todo el arreglo.
         - Inicializar i = 0 (si el arreglo no está vacío);
-          j partirá desde 1 hasta len(nums)-1.
+            j partirá desde 1 hasta len(nums)-1.
         - Para cada j:
             • Si nums[j] != nums[i]: significa que encontramos un nuevo valor único.
             • Incrementar i en 1. Asignar nums[i] = nums[j].
